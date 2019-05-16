@@ -39,7 +39,7 @@
   </dependencies>
 <profiles>
 <profile>
-     <id>deployment</id>
+     
  <distributionManagement>
     <repository>
       <id>myspring-release</id>
