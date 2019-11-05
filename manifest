@@ -1,0 +1,7 @@
+---
+applications:
+- name: myspring
+  instances: 1
+  memory: 800m
+  path: target/myspring-6.0.0-SNAPSHOT.jar
+  
