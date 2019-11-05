@@ -25,7 +25,7 @@ node {
 
                     sh 'cf login -a http://api.run.pivotal.io -u $USERNAME -p $PASSWORD'
                     
-                    sh 'cf push practice777 -p target/addressbook.war'
+                    sh 'cf push practice777 -p target/myspring-6.0.0-SNAPSHOT.jar'
                 
             }
 
